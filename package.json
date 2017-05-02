@@ -1,0 +1,26 @@
+{
+  "name": "@ab/common",
+  "version": "0.9.0",
+  "description": "Common components and utilities for Artifact Builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthmoeros/ab-common.git"
+  },
+  "keywords": [
+    "utilities",
+    "common",
+    "artifact-builder",
+    "ab-common",
+    "ab"
+  ],
+  "author": "arthmoeros",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/arthmoeros/ab-common/issues"
+  },
+  "homepage": "https://github.com/arthmoeros/ab-common#readme"
+}
