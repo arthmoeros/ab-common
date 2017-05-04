@@ -2,7 +2,6 @@ import "reflect-metadata";
 
 /**
  * @class Annotation
- * @version 0.9.0
  * @see npm @ab/common
  * @author arthmoeros (Arturo Saavedra) artu.saavedra@gmail.com
  * 
@@ -15,7 +14,7 @@ export class Annotation {
 	public static readonly RestRequestType: string = "RestResponseType:requestContentType";
 	public static readonly RestResponseType: string = "RestResponseType:responseContentType";
 	public static readonly PipeFunction: string = "PipeFunction";
-	public static readonly DefinitionFunction: string = "DefinitionFunction";
+	public static readonly TemplateFunction: string = "TemplateFunction";
 }
 
 export function RestMethod(path){
@@ -34,6 +33,6 @@ export function PipeFunction(){
 	return Reflect.metadata(Annotation.PipeFunction, Annotation.PipeFunction);
 }
 
-export function DefinitionFunction(){
-	return Reflect.metadata(Annotation.DefinitionFunction, Annotation.DefinitionFunction);
+export function TemplateFunction(){
+	return Reflect.metadata(Annotation.TemplateFunction, Annotation.TemplateFunction);
 }

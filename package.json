@@ -1,30 +1,32 @@
 {
-  "name": "@ab/common",
-  "version": "0.9.0",
-  "description": "Common components and utilities for Artifact Builder",
+  "name": "@artifacter/common",
+  "version": "0.9.1",
+  "description": "Common components and utilities for Artifacter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arthmoeros/ab-common.git"
+    "url": "git+https://github.com/arthmoeros/artifacter-common.git"
   },
   "keywords": [
     "utilities",
     "common",
-    "artifact-builder",
+    "artifact builder",
+    "artifacter",
     "ab-common",
     "ab"
   ],
   "author": "arthmoeros",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/arthmoeros/ab-common/issues"
+    "url": "https://github.com/arthmoeros/artifacter-common/issues"
   },
-  "homepage": "https://github.com/arthmoeros/ab-common#readme",
+  "homepage": "https://github.com/arthmoeros/artifacter-common#readme",
   "dependencies": {
     "@types/reflect-metadata": "0.0.5",
     "reflect-metadata": "^0.1.10"
-  }
+  },
+  "devDependencies": {}
 }
