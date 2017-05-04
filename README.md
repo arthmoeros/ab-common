@@ -24,8 +24,8 @@ Class with static util methods for number handling
 
 **Annotation** | **Description**|**Usage**
 ---------------|----------------|-------------
-@RestMethod | Tags a public method as a Rest Service and specifies its path | *Used by @ab/worker*
-@RestRequestType | Specifies expected request content-type header | *Required by @RestMethod in @ab/worker*
-@RestResponseType | Specifies expected response content-type header | *Required by @RestMethod in @ab/worker* 
-@PipeFunction | Tags a public method as a Pipe Function | *Used by @ab/template-processor*
-@TemplateFunction | Tags a public method as a Template Function | *Used by @ab/template-processor*
+@RestMethod | Tags a public method as a Rest Service and specifies its path | *Used by @artifacter/worker*
+@RestRequestType | Specifies expected request content-type header | *Required by @RestMethod in @artifacter/worker*
+@RestResponseType | Specifies expected response content-type header | *Required by @RestMethod in @artifacter/worker* 
+@PipeFunction | Tags a public method as a Pipe Function | *Used by @artifacter/template-processor*
+@TemplateFunction | Tags a public method as a Template Function | *Used by @artifacter/template-processor*

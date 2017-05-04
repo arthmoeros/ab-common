@@ -2,7 +2,7 @@ import "reflect-metadata";
 
 /**
  * @class Annotation
- * @see npm @ab/common
+ * @see npm @artifacter/common
  * @author arthmoeros (Arturo Saavedra) artu.saavedra@gmail.com
  * 
  * This Class defines constants to identify metadata keys from reflect-metadata

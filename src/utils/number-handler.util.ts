@@ -1,6 +1,6 @@
 /**
  * @class NumberHandlerUtil
- * @see npm @ab/common
+ * @see npm @artifacter/common
  * @author arthmoeros (Arturo Saavedra) artu.saavedra@gmail.com
  * 
  * Class with static util methods for number handling
