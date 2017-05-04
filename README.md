@@ -22,8 +22,10 @@ Class with static util methods for number handling
 
 ##### Metadata Decorators (Annotations)
 
-**RestMethod:** Tags a public method as a Rest Service and specifies its path *(Used by @ab/worker)*
-**RestRequestType:** *(Required by @RestMethod in @ab/worker)* Specifies expected request content-type header
-**RestResponseType:** *(Required by @RestMethod in @ab/worker)* Specifies expected response content-type header
-**PipeFunction:** Tags a public method as a Pipe Function *(Used by @ab/template-processor)*
-**TemplateFunction:** Tags a public method as a Template Function *(Used by @ab/template-processor)*
+**Annotation** | **Description**|**Usage**
+---------------|----------------|-------------
+@RestMethod | Tags a public method as a Rest Service and specifies its path | *Used by @ab/worker*
+@RestRequestType | Specifies expected request content-type header | *Required by @RestMethod in @ab/worker*
+@RestResponseType | Specifies expected response content-type header | *Required by @RestMethod in @ab/worker* 
+@PipeFunction | Tags a public method as a Pipe Function | *Used by @ab/template-processor*
+@TemplateFunction | Tags a public method as a Template Function | *Used by @ab/template-processor*
