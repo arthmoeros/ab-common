@@ -1,9 +1,9 @@
-# @ab/common
-### Common components and utilities for Artifact Builder
+# @artifacter/common
+### Common components and utilities for Artifacter
 
 #### What's this? - Intro
 
-This module only contains common components and utilities for Artifact Builder, but you can use it on your own project/application if you like them, these only depends on **reflect-metadata** at the moment. For now it is very tiny.
+This module only contains common components and utilities for Artifacter, but you can use it on your own project/application if you like them, these only depends on **reflect-metadata** at the moment. For now it is very tiny.
 
 #### What's in here? - API
 
