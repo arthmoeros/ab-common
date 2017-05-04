@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/arthmoeros/ab-common/issues"
   },
-  "homepage": "https://github.com/arthmoeros/ab-common#readme"
+  "homepage": "https://github.com/arthmoeros/ab-common#readme",
+  "dependencies": {
+    "@types/reflect-metadata": "0.0.5",
+    "reflect-metadata": "^0.1.10"
+  }
 }
