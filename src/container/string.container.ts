@@ -109,7 +109,7 @@ export class StringContainer{
 		if(find instanceof StringContainer){
 			find = find.getString();
 		}
-		this.containedString = this.containedString.replace(new RegExp("/"+find+"/g"),replace);
+		this.containedString = this.containedString.replace(new RegExp(find.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1"), 'g'), replace);
 		return this;
 	}
 

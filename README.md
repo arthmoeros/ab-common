@@ -20,12 +20,22 @@ Class with static util methods for string handling
 
 Class with static util methods for number handling
 
+##### Annotation
+
+Handles Metadata Decorators accessing keys and also provides an utility static method for retrieval of @RestService metadata information
+
+##### RestMethod
+
+Enum used to identify types of Rest Methods (HTTP), such as POST, GET, PUT, DELETE
+
+##### ContentType
+
+Utility class handling static instances of different ContentTypes used by the @RestService decorator
+
 ##### Metadata Decorators (Annotations)
 
 **Annotation** | **Description**|**Usage**
 ---------------|----------------|-------------
-@RestMethod | Tags a public method as a Rest Service and specifies its path | *Used by @artifacter/worker*
-@RestRequestType | Specifies expected request content-type header | *Required by @RestMethod in @artifacter/worker*
-@RestResponseType | Specifies expected response content-type header | *Required by @RestMethod in @artifacter/worker* 
-@PipeFunction | Tags a public method as a Pipe Function | *Used by @artifacter/template-processor*
-@TemplateFunction | Tags a public method as a Template Function | *Used by @artifacter/template-processor*
+@RestService | Tags a public method as a Rest Service and specifies its metadata (http method, path, content types for request and response) | *Used by @artifacter/worker*
+@PipeFunction | Tags a public method as a Pipe Function | *Used by @artifacter/template-engine*
+@TemplateFunction | Tags a public method as a Template Function | *Used by @artifacter/template-engine*
