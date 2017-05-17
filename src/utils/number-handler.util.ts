@@ -13,7 +13,7 @@ export class NumberHandlerUtil{
      * @param low 
      * @param high 
      */
-    public static randomIntInc(low, high): number {
+    public static randomIntInc(low: number, high: number): number {
         return Math.floor(Math.random() * (high - low + 1) + low);
     }
 }
