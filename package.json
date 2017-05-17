@@ -4,6 +4,7 @@
   "description": "Common components and utilities for Artifacter",
   "main": "index.js",
   "scripts": {
+    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
