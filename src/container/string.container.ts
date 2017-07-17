@@ -13,7 +13,7 @@
 export class StringContainer{
 
 	private containedString: string;
-	private replacementOffset: number;
+	private replacementOffset: number = 0;
 
 	/**
 	 * Instances a StringContainer with a initialized string
