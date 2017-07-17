@@ -13,6 +13,7 @@
 export class StringContainer{
 
 	private containedString: string;
+	private replacementOffset: number;
 
 	/**
 	 * Instances a StringContainer with a initialized string
@@ -111,6 +112,14 @@ export class StringContainer{
 		}
 		this.containedString = this.containedString.replace(new RegExp(find.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1"), 'g'), replace);
 		return this;
+	}
+
+	public get $offset(): number{
+		return this.replacementOffset;
+	}
+
+	public set $offset(offset: number){
+		this.replacementOffset = offset;
 	}
 
 	/**
