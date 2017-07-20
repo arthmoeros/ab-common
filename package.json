@@ -1,6 +1,6 @@
 {
   "name": "@artifacter/common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Common components and utilities for Artifacter",
   "main": "index.js",
   "scripts": {
