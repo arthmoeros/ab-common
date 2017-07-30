@@ -1,4 +1,4 @@
-# ![artifacter-logo](https://raw.githubusercontent.com/arthmoeros/artifacter-ui/master/src/rsz_artifacter-logo.png)@artifacter/common
+# ![artifacter-logo](https://raw.githubusercontent.com/arthmoeros/artifacter-ui/master/src/assets/img/rsz_artifacter-logo.png)@artifacter/common
 ### Common components and utilities for Artifacter
 
 #### What's this? - Intro
