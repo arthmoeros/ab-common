@@ -1,6 +1,6 @@
 /**
  * @class StringContainer
- * @see npm @artifacter/common
+ * @see npm @qsdt/common
  * @author arthmoeros (Arturo Saavedra) artu.saavedra@gmail.com
  * 
  * Class for containing a string "reference", for example, you can pass an instance of this class

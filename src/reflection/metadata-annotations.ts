@@ -4,7 +4,7 @@ import { ContentType } from "./rest/content-type";
 import { RestMethod } from "./rest/rest-method.enum";
 /**
  * @class Annotation
- * @see npm @artifacter/common
+ * @see npm @qsdt/common
  * @author arthmoeros (Arturo Saavedra) artu.saavedra@gmail.com
  * 
  * This Class defines constants to identify metadata keys from reflect-metadata

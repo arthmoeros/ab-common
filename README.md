@@ -1,9 +1,9 @@
-# ![artifacter-logo](https://raw.githubusercontent.com/arthmoeros/artifacter-ui/master/src/assets/img/rsz_artifacter-logo.png)@artifacter/common
-### Common components and utilities for Artifacter
+# ![qsdt-logo](https://raw.githubusercontent.com/arthmoeros/qsdt-ui/master/src/assets/img/rsz_qsdt-logo.png)@qsdt/common
+### Common components and utilities for QSDT
 
 #### What's this? - Intro
 
-This module only contains common components and utilities for Artifacter, but you can use it on your own project/application if you like them, these only depends on **reflect-metadata** at the moment. For now it is very tiny.
+This module only contains common components and utilities for QSDT, but you can use it on your own project/application if you like them, these only depends on **reflect-metadata** at the moment. For now it is very tiny.
 
 #### What's in here? - API
 
@@ -36,6 +36,6 @@ Utility class handling static instances of different ContentTypes used by the @R
 
 **Annotation** | **Description**|**Usage**
 ---------------|----------------|-------------
-@RestService | Tags a public method as a Rest Service and specifies its metadata (http method, path, content types for request and response) | *Used by @artifacter/worker*
-@PipeFunction | Tags a public method as a Pipe Function | *Used by @artifacter/template-engine*
-@TemplateFunction | Tags a public method as a Template Function | *Used by @artifacter/template-engine*
+@RestService | Tags a public method as a Rest Service and specifies its metadata (http method, path, content types for request and response) | *Used by @qsdt/worker*
+@PipeFunction | Tags a public method as a Pipe Function | *Used by @qsdt/template-engine*
+@TemplateFunction | Tags a public method as a Template Function | *Used by @qsdt/template-engine*

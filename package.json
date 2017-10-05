@@ -1,7 +1,7 @@
 {
-  "name": "@artifacter/common",
+  "name": "@qsdt/common",
   "version": "1.0.5",
-  "description": "Common components and utilities for Artifacter",
+  "description": "Common components and utilities for qsdt",
   "main": "index.js",
   "scripts": {
     "prepublish": "tsc",
@@ -9,22 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arthmoeros/artifacter-common.git"
+    "url": "git+https://github.com/arthmoeros/qsdt-common.git"
   },
   "keywords": [
     "utilities",
     "common",
     "artifact builder",
-    "artifacter",
+    "qsdt",
     "ab-common",
     "ab"
   ],
   "author": "arthmoeros",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/arthmoeros/artifacter-common/issues"
+    "url": "https://github.com/arthmoeros/qsdt-common/issues"
   },
-  "homepage": "https://github.com/arthmoeros/artifacter-common#readme",
+  "homepage": "https://github.com/arthmoeros/qsdt-common#readme",
   "dependencies": {
     "@types/reflect-metadata": "0.0.5",
     "reflect-metadata": "^0.1.10"

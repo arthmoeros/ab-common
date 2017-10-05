@@ -2,7 +2,7 @@ import { StringContainer } from "./../container/string.container";
 
 /**
  * @class StringHandlerUtil
- * @see npm @artifacter/common
+ * @see npm @qsdt/common
  * @author arthmoeros (Arturo Saavedra) artu.saavedra@gmail.com
  * 
  * Class with static util methods for string handling
