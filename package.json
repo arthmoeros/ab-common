@@ -1,6 +1,6 @@
 {
   "name": "@qsdt/common",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Common components and utilities for qsdt",
   "main": "index.js",
   "scripts": {
