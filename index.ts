@@ -6,3 +6,6 @@ export * from "./src/reflection/metadata-annotations";
 export * from "./src/reflection/rest/content-type";
 export * from "./src/reflection/rest/rest-method.enum";
 export * from "./src/utils/object-property-locator";
+export * from "./src/abstract/blueprint.manager";
+export * from "./src/abstract/form.manager";
+export * from "./src/container/blueprint.container";
