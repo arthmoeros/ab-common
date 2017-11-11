@@ -4,7 +4,7 @@
   "description": "Common components and utilities for qsdt",
   "main": "index.js",
   "scripts": {
-    "prepublish": "tsc",
+    "prepublishOnly": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +29,7 @@
     "@types/reflect-metadata": "0.0.5",
     "reflect-metadata": "^0.1.10"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^8.0.51"
+  }
 }
