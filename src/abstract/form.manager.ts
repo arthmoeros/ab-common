@@ -1,7 +1,7 @@
 export abstract class FormManager{
 
-    public abstract getFormsIndex(): string[];
+    public abstract async getFormsIndex(): Promise<string[]>;
 
-    public abstract getForm(name: string): string;
+    public abstract async getForm(name: string): Promise<string>;
 
 }
